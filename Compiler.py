@@ -1,6 +1,6 @@
 ######################################################
-###		   NASIOS VASILEIOS   A.M: 3296  cse63296  ###
-###		   VAKALOS APOSTOLOS  A.M: 3185  cse63185  ###
+###      NASIOS VASILEIOS   A.M: 3296  cse63296    ###
+###      VAKALOS APOSTOLOS  A.M: 3185  cse63185    ###
 ######################################################
 
 import sys
@@ -1839,7 +1839,7 @@ def finalcode():
 			Mips.append('jr $ra')
 			
 		elif quad[0] == 'jump':
-			Mips.append('j '+'L'+str(quad[3]))		#### j or b ????
+			Mips.append('j '+'L'+str(quad[3]))
 		
 		elif quad[0] in relational_op:
 			x = quad[1]
